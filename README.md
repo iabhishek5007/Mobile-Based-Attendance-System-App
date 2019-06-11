@@ -13,27 +13,27 @@ Server: Xampp Server
 
 ## Overall Features
 
-Manage department, subject, teacher, course and student records.
-Allow teachers to take/edit attendance for their respective subjects.
-Teachers can generate new schedule to take classes.
-View attendance and download attendance sheets.
-Generate customized reports of student attendance.
-Give hierarchical rights
-Archive and restore attendance
-Allow students to view their attendance
-View attendance
+1. Manage department, subject, teacher, course and student records.
+2. Allow teachers to take/edit attendance for their respective subjects.
+3. Teachers can generate new schedule to take classes.
+4. View attendance and download attendance sheets.
+5. Generate customized reports of student attendance.
+6. Give hierarchical rights
+7. Archive and restore attendance
+8. Allow students to view their attendance
+9. View attendance
 
 #### Admin (College head)
 
-Manage Faculty and Department details
-Restore archived attendance
+1. Manage Faculty and Department details
+2. Restore archived attendance
 
 #### Faculty
 
-Make schedules to take classes
-Take and Edit attendance
-Download attendance sheet
-View customized attendance reports
+1. Make schedules to take classes
+2. Take and Edit attendance
+3. Download attendance sheet
+4. View customized attendance reports
 
 #### Student
 
@@ -44,9 +44,9 @@ View attendance per subject
 1. Download zip file and U nzip file on your local server.
 2. Put 'Attendance PHP files' folder inside "C:\xampp\htdocs" .
 3. Database Configuration
-Go To “localhost/phpmyadmin” in any browser
-Create Database named attendance.
-Import database attendance.sql from downloaded folder(inside Attendance PHP Files)
+4. Go To “localhost/phpmyadmin” in any browser
+5. Create Database named attendance.
+6. Import database attendance.sql from downloaded folder(inside Attendance PHP Files)
 
 ## Localhost Setup For Android Application:- 
 
