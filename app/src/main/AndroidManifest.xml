@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.frost.attendance">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".viewFaculty"></activity>
+        <activity android:name=".addFaculty2" />
+        <activity android:name=".StudentLogin" />
+        <activity android:name=".phpcodes" />
+        <activity android:name=".selectAttendanceDetails" />
+        <activity android:name=".FacultyManager" />
+        <activity android:name=".addfaculty" />
+        <activity android:name=".addstudent" />
+        <activity android:name=".adminmanager" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/network_security_config" />
+
+        <activity android:name=".StudentLoginScreen" />
+        <activity android:name=".AdminLoginScreen" />
+        <activity android:name=".FacultyLoginScreen" />
+        <activity android:name=".Notice" />
+        <activity android:name=".homepage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

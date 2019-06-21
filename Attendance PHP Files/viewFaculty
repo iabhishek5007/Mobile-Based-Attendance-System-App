@@ -1,0 +1,17 @@
+<?php include 'defines.php'; 
+
+$sql= "SELECT `id`, `name`, `username`, `email`, `address`, `mobileno` FROM `faculty`";
+$result = $con->query($sql);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "<br> id: ". $row["id"]. " - Name: ". $row["name"]. " email: " . $row["email"] . "<br>";
+    }
+} else {
+    echo "0 results";
+}
+
+$conn->close();
+
+?>
